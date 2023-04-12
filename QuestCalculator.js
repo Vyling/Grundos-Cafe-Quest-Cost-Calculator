@@ -3,7 +3,7 @@
 // @namespace    https://www.grundos.cafe
 // @namespace    https://grundos.cafe
 // @version      0.1
-// @description  Calculates the cost of the Grundos Cafe Quest items as the user searches for them on the Shop Wiz. Does not include Main Shops. Only Shop Wiz.
+// @description  Calculates the cost of the Grundos Cafe Quest items as the user searches for them on the Shop Wiz. Displays the info in a table above the Shop Wiz Search. Does not include Main Shops. Only Shop Wiz.
 // @author       Dark_Kyuubi
 // @match        https://www.grundos.cafe/market/wizard*
 // @match        https://grundos.cafe/market/wizard*
