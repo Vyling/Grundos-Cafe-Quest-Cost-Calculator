@@ -66,7 +66,7 @@ let styleSheet = document.createElement("style");
         }
     } else {
         let shopWizResult = document.querySelector('.sw_results');
-        let swItem = document.querySelector('.nomargin>strong')?.innerHTML.substring(18, undefined).trim();
+        let swItem = document.querySelector('p.mt-1>strong')?.innerHTML.substring(18, undefined).trim();
         if (quests.length > 0 && shopWizResult && isQuestItem(swItem)) {
             pushStyle();
             showCalculatedQuestsSumOnWiz(shopWizResult, swItem);
